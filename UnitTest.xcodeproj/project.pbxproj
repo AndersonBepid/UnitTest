@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		715B2A8521F7D61D00288B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2A8421F7D61D00288B0D /* AppDelegate.swift */; };
-		715B2A8721F7D61D00288B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2A8621F7D61D00288B0D /* ViewController.swift */; };
-		715B2A8A21F7D61D00288B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715B2A8821F7D61D00288B0D /* Main.storyboard */; };
+		715B2A8721F7D61D00288B0D /* GithubersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2A8621F7D61D00288B0D /* GithubersViewController.swift */; };
+		715B2A8A21F7D61D00288B0D /* Githubers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715B2A8821F7D61D00288B0D /* Githubers.storyboard */; };
 		715B2A8C21F7D61E00288B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715B2A8B21F7D61E00288B0D /* Assets.xcassets */; };
 		715B2A8F21F7D61E00288B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715B2A8D21F7D61E00288B0D /* LaunchScreen.storyboard */; };
+		715B2A9D21F7D84800288B0D /* GithuberCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715B2A9B21F7D84800288B0D /* GithuberCollectionViewCell.xib */; };
+		715B2A9E21F7D84800288B0D /* GithuberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2A9C21F7D84800288B0D /* GithuberCollectionViewCell.swift */; };
+		715B2AA421F7DB5700288B0D /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AA221F7DB5700288B0D /* UIView+Shadow.swift */; };
+		715B2AA521F7DB5700288B0D /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AA321F7DB5700288B0D /* UIImageView+Download.swift */; };
+		715B2AA921F7DD6100288B0D /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AA721F7DD6100288B0D /* AppEnviroment.swift */; };
+		715B2AAA21F7DD6100288B0D /* GithuberAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AA821F7DD6100288B0D /* GithuberAPI.swift */; };
+		715B2AAD21F7DDD400288B0D /* GithuberWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AAC21F7DDD400288B0D /* GithuberWorker.swift */; };
+		715B2AAF21F7DE2500288B0D /* Githuber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AAE21F7DE2500288B0D /* Githuber.swift */; };
+		715B2AB121F7E0A900288B0D /* GithubersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B2AB021F7E0A900288B0D /* GithubersPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		715B2A8121F7D61D00288B0D /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		715B2A8421F7D61D00288B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		715B2A8621F7D61D00288B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		715B2A8921F7D61D00288B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715B2A8621F7D61D00288B0D /* GithubersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubersViewController.swift; sourceTree = "<group>"; };
+		715B2A8921F7D61D00288B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Githubers.storyboard; sourceTree = "<group>"; };
 		715B2A8B21F7D61E00288B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715B2A8E21F7D61E00288B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		715B2A9021F7D61E00288B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715B2A9B21F7D84800288B0D /* GithuberCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithuberCollectionViewCell.xib; sourceTree = "<group>"; };
+		715B2A9C21F7D84800288B0D /* GithuberCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithuberCollectionViewCell.swift; sourceTree = "<group>"; };
+		715B2AA221F7DB5700288B0D /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		715B2AA321F7DB5700288B0D /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		715B2AA721F7DD6100288B0D /* AppEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
+		715B2AA821F7DD6100288B0D /* GithuberAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithuberAPI.swift; sourceTree = "<group>"; };
+		715B2AAC21F7DDD400288B0D /* GithuberWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithuberWorker.swift; sourceTree = "<group>"; };
+		715B2AAE21F7DE2500288B0D /* Githuber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Githuber.swift; sourceTree = "<group>"; };
+		715B2AB021F7E0A900288B0D /* GithubersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubersPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,95 @@
 		715B2A8321F7D61D00288B0D /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				715B2A8421F7D61D00288B0D /* AppDelegate.swift */,
-				715B2A8621F7D61D00288B0D /* ViewController.swift */,
-				715B2A8821F7D61D00288B0D /* Main.storyboard */,
-				715B2A8B21F7D61E00288B0D /* Assets.xcassets */,
-				715B2A8D21F7D61E00288B0D /* LaunchScreen.storyboard */,
-				715B2A9021F7D61E00288B0D /* Info.plist */,
+				715B2AA021F7DACA00288B0D /* Library */,
+				715B2A9F21F7DAC100288B0D /* Supporting Files */,
+				715B2A9921F7D80000288B0D /* Controller */,
+				715B2A9821F7D7F900288B0D /* View */,
+				715B2A9621F7D7EA00288B0D /* Model */,
 			);
 			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		715B2A9621F7D7EA00288B0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				715B2AAE21F7DE2500288B0D /* Githuber.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		715B2A9821F7D7F900288B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				715B2A9A21F7D82600288B0D /* GithuberCell */,
+				715B2A8821F7D61D00288B0D /* Githubers.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		715B2A9921F7D80000288B0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				715B2A8621F7D61D00288B0D /* GithubersViewController.swift */,
+				715B2AB021F7E0A900288B0D /* GithubersPresenter.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		715B2A9A21F7D82600288B0D /* GithuberCell */ = {
+			isa = PBXGroup;
+			children = (
+				715B2A9C21F7D84800288B0D /* GithuberCollectionViewCell.swift */,
+				715B2A9B21F7D84800288B0D /* GithuberCollectionViewCell.xib */,
+			);
+			path = GithuberCell;
+			sourceTree = "<group>";
+		};
+		715B2A9F21F7DAC100288B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715B2A9021F7D61E00288B0D /* Info.plist */,
+				715B2A8D21F7D61E00288B0D /* LaunchScreen.storyboard */,
+				715B2A8B21F7D61E00288B0D /* Assets.xcassets */,
+				715B2A8421F7D61D00288B0D /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715B2AA021F7DACA00288B0D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				715B2AAB21F7DDC600288B0D /* Worker */,
+				715B2AA621F7DD3000288B0D /* Networking */,
+				715B2AA121F7DB4500288B0D /* Extension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		715B2AA121F7DB4500288B0D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				715B2AA321F7DB5700288B0D /* UIImageView+Download.swift */,
+				715B2AA221F7DB5700288B0D /* UIView+Shadow.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		715B2AA621F7DD3000288B0D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				715B2AA721F7DD6100288B0D /* AppEnviroment.swift */,
+				715B2AA821F7DD6100288B0D /* GithuberAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		715B2AAB21F7DDC600288B0D /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				715B2AAC21F7DDD400288B0D /* GithuberWorker.swift */,
+			);
+			path = Worker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +223,8 @@
 			files = (
 				715B2A8F21F7D61E00288B0D /* LaunchScreen.storyboard in Resources */,
 				715B2A8C21F7D61E00288B0D /* Assets.xcassets in Resources */,
-				715B2A8A21F7D61D00288B0D /* Main.storyboard in Resources */,
+				715B2A9D21F7D84800288B0D /* GithuberCollectionViewCell.xib in Resources */,
+				715B2A8A21F7D61D00288B0D /* Githubers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				715B2A8721F7D61D00288B0D /* ViewController.swift in Sources */,
+				715B2AA421F7DB5700288B0D /* UIView+Shadow.swift in Sources */,
+				715B2AAD21F7DDD400288B0D /* GithuberWorker.swift in Sources */,
+				715B2A8721F7D61D00288B0D /* GithubersViewController.swift in Sources */,
+				715B2AA521F7DB5700288B0D /* UIImageView+Download.swift in Sources */,
+				715B2AAF21F7DE2500288B0D /* Githuber.swift in Sources */,
+				715B2AB121F7E0A900288B0D /* GithubersPresenter.swift in Sources */,
+				715B2A9E21F7D84800288B0D /* GithuberCollectionViewCell.swift in Sources */,
+				715B2AAA21F7DD6100288B0D /* GithuberAPI.swift in Sources */,
+				715B2AA921F7DD6100288B0D /* AppEnviroment.swift in Sources */,
 				715B2A8521F7D61D00288B0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,12 +251,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		715B2A8821F7D61D00288B0D /* Main.storyboard */ = {
+		715B2A8821F7D61D00288B0D /* Githubers.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				715B2A8921F7D61D00288B0D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Githubers.storyboard;
 			sourceTree = "<group>";
 		};
 		715B2A8D21F7D61E00288B0D /* LaunchScreen.storyboard */ = {
@@ -284,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2577FS5BXM;
-				INFOPLIST_FILE = UnitTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UnitTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2577FS5BXM;
-				INFOPLIST_FILE = UnitTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UnitTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
