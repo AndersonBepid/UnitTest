@@ -15,11 +15,12 @@ protocol GithubersPresenterDelegate: class {
 class GithubersPresenter {
     
     weak var delegate: GithubersPresenterDelegate?
-    let provider: GithuberWorker = GithuberWorker.singleton
+    var provider: GithuberWorker!
     
-    convenience init(delegate: GithubersPresenterDelegate) {
+    convenience init(delegate: GithubersPresenterDelegate, provider: GithuberWorker = GithuberWorker.singleton) {
         self.init()
         self.delegate = delegate
+        self.provider = provider
     }
 
     func fetchAllGithubers() {

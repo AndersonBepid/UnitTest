@@ -15,6 +15,22 @@ enum Result<T> {
     case failure(NSError)
 }
 
+extension Result {
+    var resource: T? {
+        if case let .success(resource) = self {
+            return resource
+        }
+        return nil
+    }
+    
+    var error: Error? {
+        if case let .failure(error) = self {
+            return error
+        }
+        return nil
+    }
+}
+
 class GithuberWorker {
     
     static let singleton = GithuberWorker()

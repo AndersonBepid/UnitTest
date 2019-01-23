@@ -22,3 +22,8 @@ struct Githuber: Decodable {
         case type
     }
 }
+
+extension Githuber: Hashable {
+    
+    
+}
